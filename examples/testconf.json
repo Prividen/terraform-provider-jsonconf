@@ -1,0 +1,95 @@
+[
+  {
+    "codename": "m4",
+    "dc": "Matrix4",
+    "host": "esxi0.m4.company.org",
+    "private_ip": "192.168.4.115",
+    "public_ip": "1.5.1.240/24",
+    "public_vlan": "Vlan860-IPTP",
+    "storage": "EMC-R10-iSCSI-2"
+  },
+  {
+    "codename": "ash",
+    "dc": "eq.ash",
+    "host": "esxi0.ash.company.org",
+    "private_ip": "192.168.10.45",
+    "public_ip": "9.1.9.72/25",
+    "public_vlan": "Vlan961-vmnic0",
+    "storage": "local-esxi0.ash",
+    "template_vm": "Centos8-template-Telx.NY"
+  },
+  {
+    "codename": "msk",
+    "dc": "M9",
+    "host": "esxi1.msk.company.org",
+    "private_ip": "192.168.7.171",
+    "public_ip": "1.1.1.153/24",
+    "public_vlan": "VLAN504",
+    "storage": "local_esxi1.msk"
+  },
+  {
+    "codename": "la",
+    "dc": "eq.la",
+    "host": "esxi0.la1.company.org",
+    "private_ip": "192.168.20.151",
+    "public_ip": "9.1.1.151/25",
+    "public_vlan": "Vlan1122-vmnic0",
+    "storage": "EMC-R10",
+    "template_vm": "Centos8-template-Telx.NY"
+  },
+  {
+    "codename": "bj",
+    "dc": "CloudVSP.bj",
+    "host": "esxi0.bj.company.org",
+    "private_ip": "192.168.42.171",
+    "public_ip": "1.2.8.165/28",
+    "public_vlan": "VLAN1000 - Customers",
+    "storage": "local_esxi0.bj"
+  },
+  {
+    "codename": "pe",
+    "dc": "l3.lima",
+    "host": "esxi0.pe.company.org",
+    "private_ip": "192.168.55.19",
+    "public_ip": "1.2.3.233/27",
+    "public_vlan": "VLAN990 - Customers",
+    "storage": "local_esxi0.pe"
+  },
+  {
+    "codename": "vn",
+    "dc": "CMC.vn",
+    "host": "esxi1.vn.company.org",
+    "private_ip": "192.168.54.13",
+    "public_ip": "1.1.2.98/25",
+    "public_vlan": "VLAN1600 - Customers",
+    "storage": "local-R10_esxi1.vn",
+    "template_vm": "Centos8-template-CMC.vn"
+  },
+  {
+    "codename": "hk",
+    "dc": "eq.HK",
+    "host": "esxi2.hk.company.org",
+    "private_ip": "192.168.11.31",
+    "public_ip": "2.1.1.132/25",
+    "public_vlan": "VLAN1320-Customers",
+    "storage": "local_esxi2.hk"
+  },
+  {
+    "codename": "sg",
+    "dc": "gs.SG",
+    "host": "esxi0.sg.company.org",
+    "private_ip": "192.168.31.47",
+    "public_ip": "1.2.5.73/25",
+    "public_vlan": "Vlan750_Customers-gs.sg",
+    "storage": "emc-sata-r6_gs.sg"
+  },
+  {
+    "codename": "syd",
+    "dc": "gs.SYD",
+    "host": "esxi0.syd.company.org",
+    "private_ip": "192.168.67.15",
+    "public_ip": "1.2.1.139/25",
+    "public_vlan": "VLAN1610.syd - Customers",
+    "storage": "local_esxi0.syd"
+  }
+]
