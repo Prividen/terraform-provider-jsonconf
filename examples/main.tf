@@ -7,7 +7,9 @@ terraform {
   }
 }
 
-provider "jsonconf" {}
+provider "jsonconf" {
+	file = "./testconf.json"
+}
 
 data "jsonconf_nodes" "all" {}
 

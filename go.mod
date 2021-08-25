@@ -1,4 +1,4 @@
-module terraform-provider-jsonconf
+module github.com/Prividen/terraform-provider-jsonconf
 
 go 1.16
 

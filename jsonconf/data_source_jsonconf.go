@@ -61,7 +61,11 @@ func dataSourceJsonConf() *schema.Resource {
 func dataSourceJsonConfRead(ctx context.Context, d *schema.ResourceData, m interface{}) diag.Diagnostics {
 	var diags diag.Diagnostics
 
-	jsonFile, err := os.Open("./testconf.json")
+
+	providerConfig := m.(*Config)
+	file := providerConfig.File
+
+	jsonFile, err := os.Open(file)
 	if err != nil {
 		return diag.FromErr(err)
 	}

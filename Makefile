@@ -3,7 +3,7 @@ HOSTNAME=github.com
 NAMESPACE=prividen
 NAME=jsonconf
 BINARY=terraform-provider-${NAME}
-VERSION=0.1.13
+VERSION=0.1.30
 OS_ARCH=linux_amd64
 
 default: install
@@ -34,4 +34,4 @@ test:
 	echo $(TEST) | xargs -t -n4 go test $(TESTARGS) -timeout=30s -parallel=4                    
 
 testacc: 
-	TF_ACC=1 go test $(TEST) -v $(TESTARGS) -timeout 120m   
+	TF_ACC=1 go test $(TEST) -v $(TESTARGS) -timeout 120m
